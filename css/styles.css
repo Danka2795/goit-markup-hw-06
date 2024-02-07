@@ -1,0 +1,122 @@
+.raleway {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #2e2f42;
+}
+
+.page-nav {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+  color: #2e2f42;
+  background-color: #fff;
+}
+
+.logo-part-1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03px;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo-part-2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03px;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+.page-nav .link:hover {
+  color: #404bbf;
+}
+
+.page-nav-adress .link:hover {
+  color: #404bbf;
+}
+.tittle {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #fff;
+}
+.tittle-1 {
+  background-color: #2e2f42;
+}
+.button {
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+  text-align: center;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+  color: #434455;
+}
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02px;
+  color: #2e2f42;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.section-team {
+  background-color: #f4f4fd;
+}
+
+.page-down {
+  background-color: #2e2f42;
+}
+.page-down-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02px;
+  color: #f4f4fd;
+}
+.page-down-logo {
+  text-transform: uppercase;
+}

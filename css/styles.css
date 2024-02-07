@@ -117,6 +117,22 @@ ul {
   letter-spacing: 0.02px;
   color: #f4f4fd;
 }
-.page-down-logo {
+.logo-footer-part-1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03px;
   text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo-footer-part-2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03px;
+  text-transform: uppercase;
+  color: #f4f4fd;
 }

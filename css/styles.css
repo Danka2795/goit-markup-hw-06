@@ -21,22 +21,21 @@
   font-weight: 700;
   font-style: normal;
 }
+ul {
+  list-style-type: none;
+}
 
+a {
+  color: currentColor;
+  text-decoration: none;
+  font-style: normal;
+}
 body {
   font-family: 'Roboto', sans-serif;
   color: #2e2f42;
 }
 
-.page-nav {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.2px;
-  color: #2e2f42;
-  background-color: #fff;
-}
-
-.logo-part-1 {
+.logo-part-first {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -46,7 +45,7 @@ body {
   color: #4d5ae5;
 }
 
-.logo-part-2 {
+.logo-part-second {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -55,13 +54,23 @@ body {
   text-transform: uppercase;
   color: #2e2f42;
 }
-.page-nav .link:hover {
-  color: #404bbf;
+.page-nav {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+  color: #2e2f42;
+  background-color: #fff;
 }
 
-.page-nav-adress .link:hover {
-  color: #404bbf;
+.link-contact {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02px;
+  color: #434455;
 }
+
 .tittle {
   font-weight: 700;
   font-size: 56px;
@@ -70,7 +79,8 @@ body {
   text-align: center;
   color: #fff;
 }
-.tittle-1 {
+
+.tittle-first {
   background-color: #2e2f42;
 }
 .button {
@@ -99,10 +109,6 @@ h3 {
   color: #2e2f42;
 }
 
-ul {
-  list-style-type: none;
-}
-
 .section-team {
   background-color: #f4f4fd;
 }
@@ -117,7 +123,7 @@ ul {
   letter-spacing: 0.02px;
   color: #f4f4fd;
 }
-.logo-footer-part-1 {
+.logo-footer-part-first {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -127,7 +133,7 @@ ul {
   color: #4d5ae5;
 }
 
-.logo-footer-part-2 {
+.logo-footer-part-second {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -135,4 +141,11 @@ ul {
   letter-spacing: 0.03px;
   text-transform: uppercase;
   color: #f4f4fd;
+}
+.contact-address {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02px;
+  color: #434455;
 }

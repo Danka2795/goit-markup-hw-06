@@ -28,11 +28,14 @@ ul {
 a {
   color: currentColor;
   text-decoration: none;
+}
+address {
   font-style: normal;
 }
 body {
   font-family: 'Roboto', sans-serif;
-  color: #2e2f42;
+  background-color: #ffffff;
+  color: #434455;
 }
 
 .logo-part-first {
@@ -40,7 +43,7 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16667;
-  letter-spacing: 0.03px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
 }
@@ -50,7 +53,7 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16667;
-  letter-spacing: 0.03px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
 }
@@ -58,7 +61,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.2em;
   color: #2e2f42;
   background-color: #fff;
 }
@@ -70,7 +73,7 @@ body {
 .link-contact {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02px;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 .link-contact:hover,
@@ -84,8 +87,8 @@ body {
 .tittle {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
-  letter-spacing: 0.2px;
+  line-height: 1.07;
+  letter-spacing: 0.2em;
   text-align: center;
   color: #fff;
 }
@@ -96,7 +99,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.4em;
   text-align: center;
   background-color: #4d5ae5;
   cursor: pointer;
@@ -110,14 +113,14 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02px;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
 .text-benefits {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.2em;
   color: #434455;
 }
 
@@ -127,8 +130,8 @@ body {
 .title-team {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
-  letter-spacing: 0.02px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
@@ -137,14 +140,14 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02px;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
 }
 .profession {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02px;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
 }
@@ -152,7 +155,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11111;
-  letter-spacing: 0.02px;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
@@ -161,14 +164,14 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02px;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
 .text-portfolio {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02px;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 footer {
@@ -177,7 +180,7 @@ footer {
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02px;
+  letter-spacing: 0.02em;
   color: #f4f4fd;
 }
 .logo-footer-part-first {
@@ -185,7 +188,7 @@ footer {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16667;
-  letter-spacing: 0.03px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
 }
@@ -195,7 +198,7 @@ footer {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16667;
-  letter-spacing: 0.03px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
 }

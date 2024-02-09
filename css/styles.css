@@ -54,7 +54,7 @@ body {
   text-transform: uppercase;
   color: #2e2f42;
 }
-.page-nav {
+.header-nav {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -62,15 +62,25 @@ body {
   color: #2e2f42;
   background-color: #fff;
 }
+.header-nav .link:hover,
+.header-nav .link:focus {
+  color: #404bbf;
+}
 
 .link-contact {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02px;
   color: #434455;
 }
+.link-contact:hover,
+.link-contact:focus {
+  color: #404bbf;
+}
 
+.selection-first {
+  background-color: #2e2f42;
+}
 .tittle {
   font-weight: 700;
   font-size: 56px;
@@ -80,10 +90,8 @@ body {
   color: #fff;
 }
 
-.tittle-first {
-  background-color: #2e2f42;
-}
 .button {
+  font-family: inherit;
   color: #fff;
   font-weight: 500;
   font-size: 16px;
@@ -93,15 +101,12 @@ body {
   background-color: #4d5ae5;
   cursor: pointer;
 }
-
-p {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.2px;
-  color: #434455;
+.button:hover,
+.button:focus {
+  background: #404bbf;
 }
-h3 {
+
+.title-benefits {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -109,15 +114,67 @@ h3 {
   color: #2e2f42;
 }
 
+.text-benefits {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+  color: #434455;
+}
+
 .section-team {
   background-color: #f4f4fd;
 }
+.title-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02px;
+  text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
+}
+.team-people {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02px;
+  text-align: center;
+  color: #2e2f42;
+}
+.profession {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02px;
+  text-align: center;
+  color: #434455;
+}
+.title-portfolio {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02px;
+  text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
+}
+.title-portfolio-second {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02px;
+  color: #2e2f42;
+}
 
-.page-down {
+.text-portfolio {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02px;
+  color: #434455;
+}
+footer {
   background-color: #2e2f42;
 }
-.page-down-text {
-  font-weight: 400;
+.footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02px;
@@ -141,11 +198,4 @@ h3 {
   letter-spacing: 0.03px;
   text-transform: uppercase;
   color: #f4f4fd;
-}
-.contact-address {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02px;
-  color: #434455;
 }

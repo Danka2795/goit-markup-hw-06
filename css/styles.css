@@ -21,7 +21,8 @@
   font-weight: 700;
   font-style: normal;
 }
-ul {
+ul,
+ol {
   list-style-type: none;
 }
 
@@ -37,7 +38,7 @@ body {
   background-color: #ffffff;
   color: #434455;
 }
-
+/*--------------- footer--*/
 .logo-part-first {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -80,7 +81,7 @@ body {
 .link-contact:focus {
   color: #404bbf;
 }
-
+/*--------------- section1--*/
 .selection-first {
   background-color: #2e2f42;
 }
@@ -108,7 +109,7 @@ body {
 .button:focus {
   background: #404bbf;
 }
-
+/*--------------- section2--*/
 .title-benefits {
   font-weight: 500;
   font-size: 20px;
@@ -123,7 +124,7 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-
+/*--------------- section3--*/
 .section-team {
   background-color: #f4f4fd;
 }
@@ -155,6 +156,8 @@ body {
   text-align: center;
   color: #434455;
 }
+
+/*--------------- section3--*/
 .title-portfolio {
   font-weight: 700;
   font-size: 36px;
@@ -179,6 +182,7 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
+/*--------------- footer--*/
 footer {
   background-color: #2e2f42;
 }

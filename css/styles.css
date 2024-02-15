@@ -24,6 +24,19 @@
 ul,
 ol {
   list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 a {
@@ -33,12 +46,29 @@ a {
 address {
   font-style: normal;
 }
+button {
+  cursor: pointer;
+}
+img {
+  display: block;
+}
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #ffffff;
   color: #434455;
+  margin: 0;
 }
-/*--------------- footer--*/
+.container{
+  .container 
+    width: 1158px;
+    padding: 15px;
+    margin: 0 auto;
+}
+/*--------------- header--*/
+.header-nav .container{
+  display:flex;
+  gap: 40px;
+}
 .logo-part-first {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -110,6 +140,18 @@ body {
   background: #404bbf;
 }
 /*--------------- section2--*/
+.title-benefits-none {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .title-benefits {
   font-weight: 500;
   font-size: 20px;

@@ -109,6 +109,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 72px;
 }
 
 .logo-part-second {
@@ -121,9 +122,6 @@ body {
   color: #2e2f42;
 }
 
-.logo-nav {
-  margin-right: 72px;
-}
 .header-nav .link:hover,
 .header-nav .link:focus {
   color: #404bbf;
@@ -186,6 +184,7 @@ body {
   gap: 24px;
 }
 .behefits-menu-item {
+  display: flex;
   width: ((100% - 72px) / 4);
 }
 .section-benefits {
@@ -303,6 +302,7 @@ body {
   background-color: #fff;
   display: flex;
   flex-flow: column;
+  border: 1px solid #e7e9fc;
 }
 .title-portfolio-second {
   font-weight: 500;
@@ -351,7 +351,7 @@ footer {
   text-transform: uppercase;
   color: #f4f4fd;
 }
-.footer-container {
+.footer-section {
   padding: 100px 0 100px;
 }
 .footer-container a {

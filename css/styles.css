@@ -180,11 +180,10 @@ body {
 /*--------------- section2--*/
 .benefits-menu {
   display: flex;
-  flex-direction: row;
   gap: 24px;
 }
-.benefits-menu-item:first-child {
-  width: ((100% - 72px) / 4);
+.benefits-menu-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .section-benefits {
@@ -304,6 +303,7 @@ body {
   display: flex;
   flex-flow: column;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .title-portfolio-second {
   font-weight: 500;

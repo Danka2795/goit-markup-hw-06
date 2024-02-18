@@ -264,6 +264,9 @@ body {
 }
 
 /*--------------- section3--*/
+.section-portfolio {
+  margin-bottom: 120px;
+}
 .menu-portfolio {
   display: flex;
   row-gap: 48px;

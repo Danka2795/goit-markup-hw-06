@@ -62,7 +62,7 @@ body {
 }
 .container {
   width: 1158px;
-  padding: 15px;
+  padding: 0 15px 0 15px;
   margin: 0 auto;
 }
 /*--------------- header--*/
@@ -82,7 +82,7 @@ body {
 
 .menu {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 .header-nav .container {
   display: flex;
@@ -90,7 +90,7 @@ body {
 }
 .menu-contact {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 .header-nav .container {
   justify-content: space-between;
@@ -119,9 +119,11 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
-  margin-right: 76px;
 }
 
+.logo-nav {
+  margin-right: 72px;
+}
 .header-nav .link:hover,
 .header-nav .link:focus {
   color: #404bbf;
@@ -137,6 +139,7 @@ body {
 .link-contact:focus {
   color: #404bbf;
 }
+
 /*--------------- section1--*/
 .section-first {
   background-color: #2e2f42;
@@ -179,7 +182,11 @@ body {
 /*--------------- section2--*/
 .benefits-menu {
   display: flex;
+  flex-direction: row;
   gap: 24px;
+}
+.behefits-menu-item {
+  width: ((100% - 72px) / 4);
 }
 .section-benefits {
   padding-top: 120px;
@@ -204,6 +211,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .text-benefits {
@@ -220,6 +228,7 @@ body {
 }
 .section-team {
   background-color: #f4f4fd;
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 .title-team {
@@ -230,8 +239,7 @@ body {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
-  padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .team-list {
   background-color: #ffffff;
@@ -265,8 +273,10 @@ body {
 
 /*--------------- section3--*/
 .section-portfolio {
-  margin-bottom: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
+
 .menu-portfolio {
   display: flex;
   row-gap: 48px;
@@ -285,18 +295,14 @@ body {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
-  margin-top: 120px;
   margin-bottom: 72px;
   max-width: 100%;
 }
 .item-portfolio-text {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 16px;
+  padding: 32px 16px;
   background-color: #fff;
   display: flex;
   flex-flow: column;
-  gap: 8px;
 }
 .title-portfolio-second {
   font-weight: 500;
@@ -305,6 +311,7 @@ body {
   letter-spacing: 0.02em;
   background-color: #ffffff;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .text-portfolio {
@@ -323,7 +330,7 @@ footer {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  padding-top: 16px;
+  width: 264px;
 }
 .logo-footer {
   font-family: 'Raleway', sans-serif;
@@ -345,6 +352,9 @@ footer {
   color: #f4f4fd;
 }
 .footer-container {
-  margin-top: 100px;
-  width: 264px;
+  padding: 100px 0 100px;
+}
+.footer-container a {
+  display: inline-block;
+  margin-bottom: 16px;
 }

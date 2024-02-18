@@ -109,7 +109,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-right: 72px;
+  margin-right: 76px;
 }
 
 .logo-part-second {
@@ -183,10 +183,10 @@ body {
   flex-direction: row;
   gap: 24px;
 }
-.behefits-menu-item {
-  display: flex;
+.benefits-menu-item:first-child {
   width: ((100% - 72px) / 4);
 }
+
 .section-benefits {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -268,6 +268,7 @@ body {
   width: 264px;
   border-radius: 0 0 4px 4px;
   padding: 32px 0px;
+  border-top: none;
 }
 
 /*--------------- section3--*/
@@ -354,7 +355,7 @@ footer {
 .footer-section {
   padding: 100px 0 100px;
 }
-.footer-container a {
+.logo-footer {
   display: inline-block;
   margin-bottom: 16px;
 }

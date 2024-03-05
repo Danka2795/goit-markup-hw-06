@@ -773,3 +773,6 @@ footer {
   background-color: #404bbf;
   outline: transparent;
 }
+.comment {
+  margin-bottom: 16px;
+}

@@ -86,7 +86,7 @@ body {
   display: flex;
   gap: 40px;
 }
-.header-nav .container {
+.page-header-container {
   display: flex;
   align-items: center;
 }

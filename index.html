@@ -39,9 +39,10 @@
             height="24"
             aria-label="mobile menu"
           >
-            <use href="/images/icons.svg#icon-groupe"></use>
+            <use href="./images/icons.svg#icon-groupe"></use>
           </svg>
         </button>
+
         <address class="header-contact">
           <ul class="menu-contact">
             <li>
@@ -735,8 +736,10 @@
                   <use href="./images/icons.svg#icon-true"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a class="privacy-policy-link" href="">Privacy Policy</a>
+              <span
+                >I accept the terms and conditions of the
+                <a class="privacy-policy-link" href="">Privacy Policy</a></span
+              >
             </label>
           </div>
           <button class="modal-window-form-button" type="submit">Send</button>
@@ -762,23 +765,27 @@
           <li><a href="" class="link-mobile-menu">Portfolio</a></li>
           <li><a href="" class="link-mobile-menu">Contacts</a></li>
         </ul>
-        <address class="mobile-menu-contact">
-          <ul class="mobile-menu-contact-item">
-            <li>
-              <a
-                href="mailto:info@devstudio.com"
-                class="link-mobile-menu-contact"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a href="tel:+110001111111" class="link-mobile-menu-contact"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
-        <div class="mobile-menu-social">
+
+        <div class="mobile-menu-social-header">
+          <address class="mobile-menu-contact">
+            <ul class="mobile-menu-contact-item">
+              <li>
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="link-mobile-menu-contact"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a
+                  href="tel:+110001111111"
+                  class="link-mobile-menu-contact first-item"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <!-- <div class="mobile-menu-social"> -->
           <ul class="mobile-menu-list-social">
             <li class="mobile-menu-item-soclial">
               <a href="#" class="mobile-menu-icon-social">
@@ -830,6 +837,8 @@
             </li>
           </ul>
         </div>
+
+        <!-- </div> -->
       </div>
     </div>
   </body>

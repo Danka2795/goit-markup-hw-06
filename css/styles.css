@@ -875,6 +875,18 @@ footer {
   .mobile-menu-icon-social:focus {
     background-color: #404bbf;
   }
+  .footer-section-first {
+    margin-bottom: 72px;
+  }
+  .footer-social {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 72px;
+  }
+  .footer-input-label-wraper {
+    gap: 16px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
